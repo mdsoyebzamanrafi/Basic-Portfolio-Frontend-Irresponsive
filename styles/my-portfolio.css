@@ -1,0 +1,148 @@
+.azeret-mono-main {
+  font-family: "Azeret Mono", monospace;
+  color: rgba(13, 19, 33, 1);
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header nav h3{
+    font-weight: 800;
+    font-size: 28px;
+}
+.p{
+    opacity: 0.7;
+    padding-bottom: 32px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 38px 150px;
+}
+.button{
+    padding: 17px 24px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.button-sec{
+    padding: 17px 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgba(13, 19, 33, 1);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+.banner{
+    text-align: center;
+    padding: 30px 0;
+    background-image: url(../B10A1-Challenge-Begins/assets/Hero-bg.png);
+}
+.width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.maindiv{
+    margin: 90px 0;
+}
+.whys{
+    background-color: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+}
+.why h4{
+    opacity: 0.7;
+    font-size: 24px;
+    font-weight: bold;
+}
+.why{
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+.why img{
+    width: 240px;
+    height: 240px;
+}
+.why div{
+    max-width: 480px;
+}
+.yt{
+    width: 1070px;
+    height: 550px;
+    border-radius: 16px;
+    border: 32px solid;
+    border-color: white;
+}
+.yt-cont{
+    border-radius: 16px;
+    border: 1px solid;
+    border-color: rgba(13, 19, 33, 1);
+}
+.boxes{
+    display: flex;
+    gap: 24px;
+}
+.box{
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+.box a, .target a{
+    color: rgba(13, 19, 33, 1);
+}
+.box h4, .target h4{
+    font-size: 24px;
+    font-weight: 800;
+}
+.target{
+    padding: 40px;
+    border: 1px solid;
+    border-color: rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 24px;
+}
+.support{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../B10A1-Challenge-Begins/assets/handshake.jpg);
+    padding: 64px 228px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 16px;
+}
+.feed{
+    width: 78%;
+    height: 20px;
+    font-size: 16px;
+    padding: 20px 20px;
+}
+.form{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+footer{
+    background-color: rgba(13, 19, 33, 0.03);
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.commit{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    gap: 24px;
+    width: 40px;
+    height: 40px;
+}
